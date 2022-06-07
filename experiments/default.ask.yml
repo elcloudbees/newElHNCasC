@@ -1,0 +1,7 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+description: Applied from Jenkins Pipeline
+labels:
+  - Release Flag
+flag: default.ask
+value: false

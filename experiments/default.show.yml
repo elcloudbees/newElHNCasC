@@ -1,0 +1,12 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+name: show
+labels:
+  - Flag Dependancy
+flag: default.show
+conditions:
+  - dependency:
+      flag: default.ask
+      value: 'true'
+    value: false
+value: true

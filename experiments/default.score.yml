@@ -1,0 +1,12 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+labels:
+  - A|B Testing
+  - Avi
+flag: default.score
+conditions:
+  - property:
+      name: isBetaUser
+      operator: is-true
+    value: true
+value: false

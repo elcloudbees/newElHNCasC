@@ -1,0 +1,14 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+name: show
+description: 'Experiment: show'
+flag: default.show
+conditions:
+  - version:
+      operator: semver-gte
+      semver: 9.2.0
+    dependency:
+      flag: default.score
+      value: 'true'
+    value: true
+value: false

@@ -1,0 +1,10 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+name: header color
+description: 'Experiment: header color'
+flag: default.headerColor
+availableValues:
+  - is-primary
+  - is-dark
+  - is-white
+value: is-dark

@@ -1,0 +1,14 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+name: login color
+description: 'Experiment: login color'
+flag: default.loginColor
+availableValues:
+  - button is-black
+  - button is-primary
+  - button is-white
+value:
+  - percentage: 50
+    option: button is-black
+  - percentage: 50
+    option: button is-primary

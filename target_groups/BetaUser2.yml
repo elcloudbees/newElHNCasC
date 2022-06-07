@@ -1,0 +1,10 @@
+type: target-group
+name: BetaUser2
+conditions:
+  - operator: in-array
+    property: company
+    operand:
+      - Acme
+      - CloudBees
+  - operator: is-true
+    property: isLoggedIn

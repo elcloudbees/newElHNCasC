@@ -1,0 +1,7 @@
+type: target-group
+name: NormalUsers
+conditions:
+  - operator: is-false
+    property: isBetaUser
+  - operator: is-true
+    property: isLoggedIn

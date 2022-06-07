@@ -1,0 +1,6 @@
+# This file was edited by Cloudbees Feature Management
+type: experiment
+description: 'Experiment: default.score'
+enabled: false
+flag: default.score
+value: false

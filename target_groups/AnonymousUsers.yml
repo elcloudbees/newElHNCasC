@@ -1,0 +1,6 @@
+type: target-group
+name: AnonymousUsers
+operator: or
+conditions:
+  - operator: is-false
+    property: isLoggedIn

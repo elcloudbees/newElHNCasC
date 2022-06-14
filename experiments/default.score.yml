@@ -1,9 +1,8 @@
-# This file was edited by Cloudbees Feature Management
+# This file was edited by CloudBees Feature Management
 type: experiment
 labels:
   - A|B Testing
   - Avi
-enabled: false
 flag: default.score
 conditions:
   - property:

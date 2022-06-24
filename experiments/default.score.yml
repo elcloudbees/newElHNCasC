@@ -8,5 +8,5 @@ conditions:
   - property:
       name: isBetaUser
       operator: is-true
-    value: false
-value: true
+    value: true
+value: false

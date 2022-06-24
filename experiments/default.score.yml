@@ -5,4 +5,8 @@ labels:
   - Avi
 enabled: false
 flag: default.score
+conditions:
+  - group:
+      name: BetaUsers
+    value: true
 value: false

@@ -2,7 +2,6 @@
 type: experiment
 name: header color
 description: 'Experiment: header color'
-enabled: false
 flag: default.headerColor
 availableValues:
   - is-primary

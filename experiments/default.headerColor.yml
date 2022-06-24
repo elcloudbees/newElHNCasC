@@ -1,7 +1,8 @@
-# This file was edited by Cloudbees Feature Management
+# This file was edited by CloudBees Feature Management
 type: experiment
 name: header color
 description: 'Experiment: header color'
+enabled: false
 flag: default.headerColor
 availableValues:
   - is-primary

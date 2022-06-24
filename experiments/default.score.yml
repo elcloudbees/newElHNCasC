@@ -4,4 +4,9 @@ labels:
   - A|B Testing
   - Avi
 flag: default.score
+conditions:
+  - property:
+      name: isBetaUser
+      operator: is-true
+    value: true
 value: false

@@ -3,11 +3,6 @@ type: experiment
 labels:
   - A|B Testing
   - Avi
-flag: default.score
 enabled: false
-conditions:
-  - property:
-      name: isBetaUser
-      operator: is-true
-    value: true
+flag: default.score
 value: false

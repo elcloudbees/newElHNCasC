@@ -5,4 +5,4 @@ labels:
   - Avi
 enabled: false
 flag: default.score
-value: true
+value: false

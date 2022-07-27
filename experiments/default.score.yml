@@ -4,5 +4,4 @@ labels:
   - A|B Testing
   - Avi
 flag: default.score
-enabled: false
 value: true

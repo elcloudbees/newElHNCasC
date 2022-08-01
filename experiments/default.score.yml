@@ -3,6 +3,6 @@ type: experiment
 labels:
   - A|B Testing
   - Avi
-enabled: true
+enabled: false
 flag: default.score
 value: true

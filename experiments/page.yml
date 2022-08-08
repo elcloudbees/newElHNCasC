@@ -4,3 +4,5 @@ flag: page
 availableValues:
   - 3
   - 2
+  - 1
+value: 3

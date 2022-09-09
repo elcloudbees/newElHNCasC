@@ -1,4 +1,4 @@
-# This file was edited by Cloudbees Feature Management
+# This file was edited by CloudBees Feature Management
 type: experiment
 name: header color
 description: 'Experiment: header color'
@@ -9,4 +9,4 @@ availableValues:
   - is-white
   - is-primary
   - is-dark
-value: is-primary
+value: is-dark

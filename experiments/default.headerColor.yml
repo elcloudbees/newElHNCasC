@@ -9,4 +9,4 @@ availableValues:
   - is-white
   - is-primary
   - is-dark
-value: is-dark
+value: is-primary

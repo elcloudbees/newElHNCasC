@@ -2,7 +2,7 @@
 type: experiment
 labels:
   - A|B Testing
-enabled: false
+enabled: true
 flag: default.score
 conditions:
   - property:

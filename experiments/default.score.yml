@@ -8,4 +8,4 @@ conditions:
       name: isBetaUser
       operator: is-true
     value: false
-value: false
+value: true

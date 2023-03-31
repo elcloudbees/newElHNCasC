@@ -3,4 +3,8 @@ type: experiment
 labels:
   - A|B Testing
 flag: default.score
+conditions:
+  - group:
+      name: BetaUsers
+    value: true
 value: false

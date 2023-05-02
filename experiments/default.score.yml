@@ -3,6 +3,7 @@ type: experiment
 labels:
   - A|B Testing
 flag: default.score
+enabled: false
 conditions:
   - group:
       name: BetaUsers

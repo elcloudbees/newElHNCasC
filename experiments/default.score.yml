@@ -2,5 +2,6 @@
 type: experiment
 labels:
   - A|B Testing
+enabled: false
 flag: default.score
 value: false

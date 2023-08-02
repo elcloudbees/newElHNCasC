@@ -2,8 +2,12 @@
 type: experiment
 labels:
   - A|B Testing
-enabled: false
 flag: default.score
+conditions:
+  - property:
+      name: isBetaUser
+      operator: is-true
+    value: false
 value:
   - percentage: 50
     option: true

@@ -4,10 +4,7 @@ labels:
   - A|B Testing
 flag: default.score
 conditions:
-  - property:
-      name: isBetaUser
-      operator: is-true
-    value: false
-value:
-  - percentage: 50
-    option: true
+  - group:
+      name: BetaUsers
+    value: true
+value: false

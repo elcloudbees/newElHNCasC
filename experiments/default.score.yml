@@ -5,6 +5,13 @@ labels:
   - A|B Testing
 enabled: false
 flag: default.score
+conditions:
+  - property:
+      name: email
+      operator: in-array
+      operand:
+        - elandon@cloudbees.com
+    value: true
 value:
   - percentage: 50
     option: true

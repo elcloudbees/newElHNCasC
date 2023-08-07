@@ -2,11 +2,4 @@
 type: experiment
 description: Score Feature displaying popularity of an article
 flag: default.score
-conditions:
-  - property:
-      name: isBetaUser
-      operator: is-true
-    value:
-      - percentage: 75
-        option: true
 value: false

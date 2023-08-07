@@ -4,4 +4,11 @@ description: adfafasdafsdf
 labels:
   - A|B Testing
 flag: default.score
-value: true
+conditions:
+  - property:
+      name: isBetaUser
+      operator: is-true
+    value:
+      - percentage: 75
+        option: true
+value: false

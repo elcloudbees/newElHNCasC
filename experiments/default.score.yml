@@ -3,4 +3,9 @@ type: experiment
 description: khlkjlkjlk
 enabled: false
 flag: default.score
+conditions:
+  - property:
+      name: isBetaUser
+      operator: is-true
+    value: true
 value: false

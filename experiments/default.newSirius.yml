@@ -2,4 +2,4 @@
 type: experiment
 enabled: false
 flag: default.newSirius
-value: false
+value: true

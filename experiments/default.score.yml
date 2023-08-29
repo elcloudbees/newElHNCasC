@@ -3,10 +3,8 @@ type: experiment
 description: khlkjlkjlk
 flag: default.score
 conditions:
-  - property:
-      name: isBetaUser
-      operator: is-true
-    value:
-      - percentage: 50
-        option: true
+  - dependency:
+      flag: default.newSirius
+      value: 'true'
+    value: true
 value: false

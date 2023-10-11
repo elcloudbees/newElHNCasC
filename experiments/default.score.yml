@@ -4,7 +4,7 @@ description: khlkjlkjlk
 flag: default.score
 conditions:
   - dependency:
-      flag: default.newSirius
+      flag: default.flag1
       value: 'true'
     value: true
 value: false

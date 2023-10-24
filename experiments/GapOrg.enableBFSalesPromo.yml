@@ -1,4 +1,4 @@
 # This file was edited by CloudBees Feature Management
 type: experiment
-flag: default.flag1
-value: true
+flag: GapOrg.enableBFSalesPromo
+value: false

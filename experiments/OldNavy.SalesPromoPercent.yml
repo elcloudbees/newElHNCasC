@@ -7,3 +7,9 @@ availableValues:
   - 20
   - 30
   - 0
+conditions:
+  - dependency:
+      flag: GapOrg.enableBFSalesPromo
+      value: 'true'
+    value: 30
+value: 0

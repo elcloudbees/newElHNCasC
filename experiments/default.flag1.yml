@@ -1,4 +1,8 @@
 # This file was edited by CloudBees Feature Management
 type: experiment
 flag: default.flag1
-value: true
+conditions:
+  - group:
+      name: BetaUsers
+    value: true
+value: false

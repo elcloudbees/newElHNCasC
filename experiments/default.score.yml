@@ -2,6 +2,11 @@
 type: experiment
 description: EL's Flag Description
 flag: default.score
+platforms:
+  - name: Browser
+    value: false
+  - name: Python
+    value: false
 conditions:
   - dependency:
       flag: default.flag1

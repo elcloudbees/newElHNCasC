@@ -4,6 +4,6 @@ description: EL's Flag Description
 flag: default.score
 conditions:
   - group:
-      name: BetaUsers
+      name: BetaUsers2
     value: true
 value: false

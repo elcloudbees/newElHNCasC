@@ -3,6 +3,6 @@ type: experiment
 flag: default.flag1
 conditions:
   - group:
-      name: BetaUsers
+      name: BetaUsers2
     value: true
 value: false

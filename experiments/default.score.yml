@@ -3,8 +3,7 @@ type: experiment
 description: EL's Flag Description
 flag: default.score
 conditions:
-  - dependency:
-      flag: default.flag1
-      value: 'true'
+  - group:
+      name: BetaUsers
     value: true
 value: false

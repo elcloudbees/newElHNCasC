@@ -5,5 +5,7 @@ flag: default.score
 conditions:
   - group:
       name: BetaUsers2
-    value: true
+    value:
+      - percentage: 50
+        option: true
 value: false

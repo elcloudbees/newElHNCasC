@@ -1,0 +1,5 @@
+type: target-group
+name: TargetGroup2
+conditions:
+  - operator: is-true
+    property: isLoggedIn

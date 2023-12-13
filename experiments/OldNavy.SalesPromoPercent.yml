@@ -1,15 +1,15 @@
 # This file was edited by CloudBees Feature Management
 type: experiment
-enabled: false
+stickinessProperty: email
 flag: OldNavy.SalesPromoPercent
 availableValues:
+  - 0
+  - 30
   - 10
   - 20
-  - 30
-  - 0
+  - 50
 conditions:
   - dependency:
       flag: GapOrg.enableBFSalesPromo
       value: 'true'
     value: 30
-value: 0

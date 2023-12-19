@@ -1,0 +1,9 @@
+# This file was edited by CloudBees Feature Management
+type: experiment
+enabled: false
+flag: default.flag1
+conditions:
+  - group:
+      name: Begoña Sample Target Group
+    value: false
+value: false

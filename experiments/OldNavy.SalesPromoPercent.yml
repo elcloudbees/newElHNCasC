@@ -9,7 +9,6 @@ availableValues:
   - 20
   - 50
 conditions:
-  - dependency:
-      flag: GapOrg.enableBFSalesPromo
-      value: 'true'
+  - group:
+      name: Begoña Sample Target Group
     value: 30

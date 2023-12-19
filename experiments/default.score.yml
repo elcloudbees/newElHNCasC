@@ -3,6 +3,12 @@ type: experiment
 description: EL's Flag Description
 stickinessProperty: email
 flag: default.score
+conditions:
+  - group:
+      name:
+        - BetaUsers2
+        - Begoña Sample Target Group
+    value: false
 value:
   - from: 2023-12-13T21:54:17.311Z
     percentage: 0

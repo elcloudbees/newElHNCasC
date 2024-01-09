@@ -1,7 +1,6 @@
 # This file was edited by CloudBees Feature Management
 type: experiment
 description: EL's Flag Description
-enabled: false
 stickinessProperty: email
 flag: default.score
 value: false

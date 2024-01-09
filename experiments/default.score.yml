@@ -2,8 +2,4 @@
 type: experiment
 description: 'Experiment: default.score'
 flag: default.score
-conditions:
-  - group:
-      name: Begoña Sample Target Group
-    value: false
-value: true
+value: false

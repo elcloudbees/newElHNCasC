@@ -2,4 +2,9 @@
 type: experiment
 description: 'Experiment: default.score'
 flag: default.score
+conditions:
+  - property:
+      name: isBetaUser
+      operator: is-true
+    value: true
 value: false

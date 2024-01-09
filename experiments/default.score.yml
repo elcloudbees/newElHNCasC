@@ -3,4 +3,4 @@ type: experiment
 description: EL's Flag Description
 stickinessProperty: email
 flag: default.score
-value: false
+value: true

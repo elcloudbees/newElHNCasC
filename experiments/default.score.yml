@@ -4,11 +4,8 @@ description: EL's Flag Description
 stickinessProperty: email
 flag: default.score
 conditions:
-  - property:
-      propertyConditions:
-        - operator: is-true
-          property: isLoggedIn
-        - operator: is-true
-          property: isBetaUser
+  - dependency:
+      flag: titleColors
+      value: Yellow
     value: true
 value: false

@@ -2,9 +2,4 @@
 type: experiment
 description: EL's Flag Description1
 flag: default.score
-conditions:
-  - dependency:
-      flag: titleColors
-      value: Yellow
-    value: true
 value: false

@@ -3,7 +3,8 @@ type: experiment
 enabled: false
 flag: default.titleColors
 availableValues:
-  - Yellow
-  - Green
   - Blue
+  - Green
   - White
+  - Yellow
+  - Orange

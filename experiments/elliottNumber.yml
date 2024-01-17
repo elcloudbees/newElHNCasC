@@ -3,3 +3,4 @@ type: experiment
 flag: elliottNumber
 availableValues:
   - 2
+value: 2

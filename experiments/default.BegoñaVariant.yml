@@ -1,0 +1,9 @@
+# This file was edited by CloudBees Feature Management
+type: experiment
+enabled: false
+flag: default.BegoñaVariant
+availableValues:
+  - 1
+  - 2
+  - 3
+  - 4

@@ -2,9 +2,4 @@
 type: experiment
 description: EL's Flag Description1
 flag: default.score
-conditions:
-  - property:
-      name: isBetaUser
-      operator: is-true
-    value: true
-value: true
+value: false

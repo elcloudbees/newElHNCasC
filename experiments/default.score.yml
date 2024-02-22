@@ -3,7 +3,6 @@ type: experiment
 description: EL's Flag Description1
 labels:
   - backward-compatible-configuration
-  - A|B Testing
 enabled: false
 flag: default.score
 value: true

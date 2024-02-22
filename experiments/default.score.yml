@@ -4,7 +4,6 @@ description: EL's Flag Description1
 labels:
   - backward-compatible-configuration
   - A|B Testing
-  - newMarkLabel
 enabled: false
 flag: default.score
 value: true

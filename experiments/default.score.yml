@@ -3,6 +3,13 @@ type: experiment
 description: EL's Flag Description1
 labels:
   - backward-compatible-configuration
-enabled: false
 flag: default.score
-value: true
+conditions:
+  - property:
+      propertyConditions:
+        - operator: is-true
+          property: isBetaUser
+        - operator: is-true
+          property: isLoggedIn
+    value: true
+value: false

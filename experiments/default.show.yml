@@ -1,14 +1,15 @@
-# This file was edited by Cloudbees Feature Management
+# This file was edited by CloudBees Feature Management
 type: experiment
 name: show
 description: 'Experiment: show'
 flag: default.show
-conditions:
-  - version:
-      operator: semver-gte
-      semver: 9.2.0
-    dependency:
-      flag: default.score
-      value: 'true'
-    value: true
-value: false
+value:
+  - from: 2024-03-12T15:51:31.379Z
+    percentage: 0
+    option: true
+  - from: 2024-03-19T05:00:00.000Z
+    percentage: 5
+    option: true
+  - from: 2024-03-26T05:00:00.000Z
+    percentage: 50
+    option: true

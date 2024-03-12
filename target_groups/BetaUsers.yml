@@ -1,5 +1,5 @@
 type: target-group
-name: BetaUsers2
+name: BetaUsers
 conditions:
   - operator: is-true
     property: isBetaUser

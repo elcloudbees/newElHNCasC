@@ -1,0 +1,14 @@
+# This file was edited by CloudBees Feature Management
+type: experiment
+stickinessProperty: email
+flag: OldNavy.SalesPromoPercent
+availableValues:
+  - 0
+  - 30
+  - 10
+  - 20
+  - 50
+conditions:
+  - group:
+      name: Begoña Sample Target Group
+    value: 30

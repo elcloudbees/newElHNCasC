@@ -1,6 +1,13 @@
-# This file was edited by Cloudbees Feature Management
+# This file was edited by CloudBees Feature Management
 type: experiment
 name: ask
 description: 'Experiment: ask'
 flag: default.ask
-value: true
+conditions:
+  - dependency:
+      flag: default.score
+      value: 'true'
+    value: true
+value:
+  - percentage: 50
+    option: true

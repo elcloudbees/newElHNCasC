@@ -11,5 +11,5 @@ conditions:
           property: isBetaUser
         - operator: is-true
           property: isLoggedIn
-    value: false
+    value: true
 value: false

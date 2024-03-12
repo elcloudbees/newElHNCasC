@@ -5,10 +5,10 @@ description: 'Experiment: show'
 flag: default.show
 value:
   - from: 2024-03-12T15:51:31.379Z
-    percentage: 0
+    percentage: 5
     option: true
   - from: 2024-03-19T05:00:00.000Z
-    percentage: 5
+    percentage: 25
     option: true
   - from: 2024-03-26T05:00:00.000Z
     percentage: 50

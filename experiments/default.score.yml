@@ -5,8 +5,7 @@ labels:
   - backward-compatible-configuration
 flag: default.score
 conditions:
-  - property:
-      name: isBetaUser
-      operator: is-true
+  - group:
+      name: BetaUsers
     value: true
 value: false

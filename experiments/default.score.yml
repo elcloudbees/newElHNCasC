@@ -8,5 +8,5 @@ flag: default.score
 conditions:
   - group:
       name: BetaUsers
-    value: true
+    value: false
 value: true

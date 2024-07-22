@@ -4,6 +4,7 @@ description: |
   New Sam Environment
 labels:
   - backward-compatible-configuration
+enabled: false
 flag: default.score
 conditions:
   - group:

@@ -5,6 +5,11 @@ description: |
 labels:
   - backward-compatible-configuration
 flag: default.score
+platforms:
+  - name: Browser
+    value: false
+  - name: Python
+    value: false
 conditions:
   - group:
       name: BetaUsers

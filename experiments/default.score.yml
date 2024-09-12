@@ -11,7 +11,8 @@ platforms:
   - name: Python
     value: false
 conditions:
-  - group:
-      name: BetaUsers
+  - property:
+      name: isBetaUser
+      operator: is-true
     value: true
 value: false
